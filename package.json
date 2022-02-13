@@ -1,0 +1,33 @@
+{
+  "name": "game-shop",
+  "version": "1.0.0",
+  "description": "### Initialize Project Folder to Use NPM  - on the command line run the following command. ```npm    npm init ```",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules .git .parcel-cache dist .DS_Store",
+    "static": "cp -rf ./src/static   .dist",
+    "start": "npx parcel src/index.html ",
+    "build": "npx parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Nicholas Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "firebase": "^9.6.6",
+    "nanoid": "^3.2.0",
+    "parcel": "^2.2.1"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.2.1",
+    "@parcel/transformer-webmanifest": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NN010/firebase-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NN010/firebase-dashboard/issues"
+  },
+  "homepage": "https://github.com/NN010/firebase-dashboard#readme"
+}
